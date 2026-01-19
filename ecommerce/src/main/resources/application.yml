@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/ecommerce_db
+
+mock-payment:
+  webhook-url: http://localhost:8080/api/webhooks/payment
+  delay-ms: 3000
