@@ -25,52 +25,7 @@ This project is a minimal e-commerce backend built using **Spring Boot** and **M
 
 ## 📁 Project Structure
 
-com.example.ecommerce
-│
-├── controller
-│   ├── ProductController.java
-│   ├── CartController.java
-│   ├── OrderController.java
-│   └── PaymentController.java
-│
-├── service
-│   ├── ProductService.java
-│   ├── CartService.java
-│   ├── OrderService.java
-│   └── PaymentService.java
-│
-├── repository
-│   ├── ProductRepository.java
-│   ├── CartRepository.java
-│   ├── OrderRepository.java
-│   └── PaymentRepository.java
-│
-├── model
-│   ├── User.java
-│   ├── Product.java
-│   ├── CartItem.java
-│   ├── Order.java
-│   ├── OrderItem.java
-│   └── Payment.java
-│
-├── dto
-│   ├── AddToCartRequest.java
-│   ├── CreateOrderRequest.java
-│   ├── PaymentRequest.java
-│   └── PaymentWebhookRequest.java
-│
-├── webhook
-│   └── PaymentWebhookController.java
-│
-├── client
-│   └── PaymentServiceClient.java   (if mock service used)
-│
-├── config
-│   └── RestTemplateConfig.java
-│
-└── EcommerceApplication.java
-
-
+![project structure](image.png)
 
 ---
 
